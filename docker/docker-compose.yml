@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  sv_db:
+    image: mysql
+    volumes:
+      - vol_db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: wordpress # MUST be "wordpress"
+      MYSQL_USER: user_wp # can NOT omit
+      MYSQL_PASSWORD: pw_wp # can NOT omit
+    networks:
+      - nw_common
+  sv_phpmyadmin:
+    depends_on:
+      - sv_db
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - '3001:80'
+    environment:
+      PMA_HOST: sv_db
+      MYSQL_ROOT_PASSWORD: 123456
+    networks:
+      - nw_common
+  sv_wordpress:
+    depends_on:
+      - sv_db
+    image: wordpress
+    ports:
+      - '8000:80'
+    restart: always
+    volumes:
+      - './vol_wordpress:/var/www/html'
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    environment:
+      WORDPRESS_DB_HOST: sv_db
+      WORDPRESS_DB_USER: user_wp # can NOT omit
+      WORDPRESS_DB_PASSWORD: pw_wp # can NOT omit
+    networks:
+      - nw_common
+networks:
+  nw_common:
+volumes:
+  vol_db_data:
