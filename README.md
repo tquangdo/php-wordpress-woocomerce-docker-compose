@@ -72,3 +72,32 @@ cat /etc/hosts | grep dodeptrai
 1. ## email
     - click `Bấm vào đây để xem cách email hiển thị như nào.`
     ![mail_ava](screenshots/mail_ava.png)
+
+# Sản phẩm
+1. ## đơn giản
+    ![sp_dg](screenshots/sp_dg.png)
+1. ## biến thể
+    - setting
+    ![sp_bt_1](screenshots/sp_bt_1.png)
+    - result
+    ![sp_bt_2](screenshots/sp_bt_2.png)
+1. ## nhóm
+    - setting
+    ![sp_nhom_1](screenshots/sp_nhom_1.png)
+    - result
+    ![sp_nhom_2](screenshots/sp_nhom_2.png)
+1. ## liên kết
+    - setting
+    ![sp_lk_1](screenshots/sp_lk_1.png)
+    - result
+    ![sp_lk_2](screenshots/sp_lk_2.png)
+1. ## ảo
+    - setting
+    ![sp_ao_1](screenshots/sp_ao_1.png)
+    - result
+    ![sp_ao_2](screenshots/sp_ao_2.png)
+1. ## tải xuống
+    - setting
+    ![sp_dl_1](screenshots/sp_dl_1.png)
+    - result
+    ![sp_dl_2](screenshots/sp_dl_2.png)
