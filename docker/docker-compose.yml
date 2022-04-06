@@ -30,7 +30,7 @@ services:
       - sv_db
     image: wordpress
     ports:
-      - '8000:80'
+      - '80:80'
     restart: always
     volumes:
       - './vol_wordpress:/var/www/html'

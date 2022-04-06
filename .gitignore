@@ -29,6 +29,7 @@
 
 # Uploads
 *wp-content/uploads/
+*uploads/
 
 # Log files
 *.log
