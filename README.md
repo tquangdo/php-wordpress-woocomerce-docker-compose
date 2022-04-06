@@ -53,4 +53,22 @@ cat /etc/hosts | grep dodeptrai
 
 # install woo
 - `plugin > install new plugin > woo`
-![woo](screenshots/woo.png) 
+![woo](screenshots/woo.png)
+1. ## giao hang
+    - setting `khu vuc giao hang > dong gia/mien phi`:
+    - 1. setting
+    ![kvgiaohang_1](screenshots/kvgiaohang_1.png)
+    - 2. result
+    ![kvgiaohang_2](screenshots/kvgiaohang_2.png)
+    - setting `Loại hình giao hàng`
+    ![lhgiaohang](screenshots/lhgiaohang.png)
+1. ## thanh toan
+    - setting `Chuyển khoản ngân hàng`
+    ![ck](screenshots/ck.png)
+    - setting `Trả tiền mặt khi nhận hàng`
+    ![cod](screenshots/cod.png)
+    - setting `paypal`
+    ![paypal](screenshots/paypal.png)
+1. ## email
+    - click `Bấm vào đây để xem cách email hiển thị như nào.`
+    ![mail_ava](screenshots/mail_ava.png)
