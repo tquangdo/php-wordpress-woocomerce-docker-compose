@@ -9,6 +9,10 @@
 # reference
 [youtube](https://www.youtube.com/watch?v=adMfVptgVZo&t=12508s)
 
+# version
+- wordpress=`5.9`
+- woocommerce=`1.7.1`
+
 # install wordpress
 ```shell
 docker-compose up -d --build
@@ -101,3 +105,12 @@ cat /etc/hosts | grep dodeptrai
     ![sp_dl_1](screenshots/sp_dl_1.png)
     - result
     ![sp_dl_2](screenshots/sp_dl_2.png)
+1. ## others
+    - coupon
+    ![coupon_1](screenshots/coupon_1.png)
+    ---
+    ![coupon_2](screenshots/coupon_2.png)
+    - checkout
+    ![checkout_1](screenshots/checkout_1.png)
+    ---
+    ![checkout_2](screenshots/checkout_2.png)
